@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import SwiftyNats
+import SwiftyJSON
+
+class SensorList: ObservableObject {
+   @Published var sensors = [String:Sensor]()
+}
 
 @main
 struct sensorsApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+   @StateObject var sensorList: SensorList = SensorList()
+   
+   var body: some Scene {
+      WindowGroup {
+         ContentView(sensorList: sensorList)
+      }
+   }
 }

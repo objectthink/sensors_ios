@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AlertKit",
+        "repositoryURL": "https://github.com/rebeloper/AlertKit.git",
+        "state": {
+          "branch": null,
+          "revision": "be3d9f6ca6ff5962057634795c9335b14b16ebdc",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
+          "version": "1.4.2"
+        }
+      },
+      {
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio.git",
+        "state": {
+          "branch": null,
+          "revision": "51c3fc2e4a0fcdf4a25089b288dd65b73df1b0ef",
+          "version": "2.37.0"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON",
+        "state": {
+          "branch": null,
+          "revision": "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "SwiftyNats",
+        "repositoryURL": "https://github.com/aus-der-Technik/SwiftyNats",
+        "state": {
+          "branch": null,
+          "revision": "85d0bf40dbb4a0408b7a4e7cefcc67010b0478bd",
+          "version": "2.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
